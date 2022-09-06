@@ -271,7 +271,7 @@ forecast.mdl_ts <- function(object, new_data = NULL, h = NULL, bias_adjust = NUL
 #' @keywords internal
 #' @export
 construct_fc <- function(point, sd, dist){
-  lifecycle::deprecate_stop("0.3.0", what = "fabletools::construct_fc()",
+  lifecycle::deprecate_stop("0.3.0", what = "fabletoolsAzd::construct_fc()",
                             details = "The forecast function should now return a vector of distributions from the 'distributional' package.")
 }
 
