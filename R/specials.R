@@ -35,7 +35,7 @@ new_specials <- function(..., .required_specials = NULL, .xreg_specials = NULL){
 special_xreg <- function(...) {
   new_function(
     args = pairlist2(...=),
-    body = call2(call2(":::", sym("fabletools"), sym("fable_xreg_matrix")),
+    body = call2(call2(":::", sym("fabletoolsAzd"), sym("fable_xreg_matrix")),
                  sym("..."), ..., .data = parse_expr("self$data")),
     env = base_env()
   )
