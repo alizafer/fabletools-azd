@@ -13,5 +13,5 @@ install.packages("fabletools_azd")
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("tidyverts/fabletools_azd")
+remotes::install_github("alizafer/fabletools_azd")
 ```
