@@ -535,7 +535,7 @@ reconcile2_fbl_list <- function(fc, S, P, W, point_forecast, SP = NULL) {
 }
 
 build_smat_rows <- function(key_data){
-  lifecycle::deprecate_warn("0.2.1", "fabletools::build_smat_rows()", "fabletools::build_key_data_smat()")
+  lifecycle::deprecate_warn("0.2.1", "fabletoolsAzd::build_smat_rows()", "fabletoolsAzd::build_key_data_smat()")
   row_col <- sym(colnames(key_data)[length(key_data)])
   
   smat <- key_data %>%
