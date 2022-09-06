@@ -19,12 +19,10 @@ knitr::opts_chunk$set(
 ## Installation
 
 
-```{r, eval = FALSE}
-install.packages("fabletools")
 ```
 
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("tidyverts/fabletools_azd")
+remotes::install_github("tidyverts/fabletools-azd")
 ```
