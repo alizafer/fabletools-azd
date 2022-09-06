@@ -1,10 +1,10 @@
 Package: fabletoolsAzd
 Title: Core Tools for Packages in the 'fable' Framework for robustness
 Version: 0.1.0
-Authors@R: person("Ali", "Dalar", role = c("aut", "cre"),
+Authors@R: person("Ali", role = c("aut", "cre"),
              email = "alizaferdalar@gmail.com"))                  
-Author: Ali Dalar [aut, cre]
-Maintainer: Ali Dalar <alizaferdalar@gmail.com>
+Author: Ali [aut, cre]
+Maintainer: Ali <alizaferdalar@gmail.com>
 Description: Provides tools, helpers and data structures for
     developing models and time series functions for 'fable' and extension
     packages. These tools support a consistent and tidy interface for time
