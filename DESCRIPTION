@@ -1,10 +1,9 @@
 Package: fabletools_azd
 Title: Core Tools for Packages in the 'fable' Framework for robustness
 Version: Robust version of tidyverse/fabletools
-Authors@R:
-    c(person("Ali Zafer", "Dalar", role = c("aut", "cre"),
+Authors@R: c(person("Ali", "Dalar", role = c("aut", "cre"),
              email = "alizaferdalar@gmail.com"))
-Author: Ali Zafer Dalar [aut, cre],
+Author: Ali Dalar [aut, cre]
 
 Description: Provides tools, helpers and data structures for
     developing models and time series functions for 'fable' and extension
