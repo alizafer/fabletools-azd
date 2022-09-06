@@ -2,7 +2,7 @@ Package: fabletools_azd
 Title: Core Tools for Packages in the 'fable' Framework for robustness
 Version: Robust version of tidyverse/fabletools
 Authors@R:
-    c(person("Ali Zafer", "Dalar", role = c("auth", "cre"),
+    c(person("Ali Zafer", "Dalar", role = c("aut", "cre"),
              email = "alizaferdalar@gmail.com"))
 Author: Ali Zafer Dalar [aut, cre],
 
