@@ -1,4 +1,4 @@
-Package: fabletools-azd
+Package: fabletoolsAzd
 Title: Core Tools for Packages in the 'fable' Framework for robustness
 Version: 0.1.0
 Authors@R: person("Ali", "Dalar", role = c("aut", "cre"),
