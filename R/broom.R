@@ -33,7 +33,7 @@ augment.mdl_df <- function(x, ...){
 #' @export
 augment.mdl_ts <- function(x, type = NULL, ...){
   if (!is.null(type)) { 
-    lifecycle::deprecate_warn("0.2.1", "fabletools::augment(type = )", 
+    lifecycle::deprecate_warn("0.2.1", "fabletoolsAzd::augment(type = )", 
                               details = "The type argument is now deprecated for changes to broom v0.7.0.
 Response residuals are now always found in `.resid` and innovation residuals are now found in `.innov`.")
   }
