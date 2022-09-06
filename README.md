@@ -6,9 +6,6 @@
 
 
 ## Installation
-
-``` r
-install.packages("fabletools_azd")
 ```
 
 ``` r
