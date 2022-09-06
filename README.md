@@ -24,13 +24,10 @@ You could install the **stable** version on
 [CRAN](https://cran.r-project.org/package=fabletools):
 
 ``` r
-install.packages("fabletools")
+install.packages("fabletools_azd")
 ```
-
-You can install the **development** version from
-[GitHub](https://github.com/tidyverts/fabletools):
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("tidyverts/fabletools")
+remotes::install_github("tidyverts/fabletools_azd")
 ```
