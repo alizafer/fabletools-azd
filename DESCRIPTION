@@ -9,8 +9,8 @@ Description: Provides tools, helpers and data structures for
     developing models and time series functions for 'fable' and extension
     packages. These tools support a consistent and tidy interface for time
     series modelling, analysis and robustness. Robust version of tidyverse/fabletools
-URL: https://github.com/alizafer/fabletools-azd
-BugReports: https://github.com/alizafer/fabletools-azd
+URL: https://github.com/alizafer/fabletoolsAzd
+BugReports: https://github.com/alizafer/fabletoolsAzd
 License: GPL-3
 Depends:
     R (>= 3.1.3)
