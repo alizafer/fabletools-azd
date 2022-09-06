@@ -4,7 +4,7 @@ Version: Robust version of tidyverse/fabletools
 Authors@R:
     c(person(given = "Ali Zafer",
              family = "Dalar",
-             role = c("cre"))
+             role = c("cre")))
 Description: Provides tools, helpers and data structures for
     developing models and time series functions for 'fable' and extension
     packages. These tools support a consistent and tidy interface for time
