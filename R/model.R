@@ -81,11 +81,11 @@ Check that specified model(s) are model definitions.", nm[which(!is_mdl)[1]]))
   
   if(.safely){
     estimate <- function(dt, mdl){
-      out <- safely(fabletools::estimate)(dt, mdl)
+      out <- safely(fabletoolsAzd::estimate)(dt, mdl)
       if(is.null(out$result)){
         f <- quo(!!mdl$formula)
         f <- set_env(f, mdl$env)
-        out$result <- fabletools::estimate(dt, null_model(!!f))
+        out$result <- fabletoolsAzd::estimate(dt, null_model(!!f))
       }
       out
     }
