@@ -128,10 +128,10 @@ common_xregs <- list(
       }
       origin <- self$origin
     }
-    as.matrix(fabletools:::fbl_trend(self$data, knots, origin))
+    as.matrix(fabletoolsAzd:::fbl_trend(self$data, knots, origin))
   },
   season = function(period = NULL) {
-    out <- as_model_matrix(fabletools:::fbl_season(self$data, period))
+    out <- as_model_matrix(fabletoolsAzd:::fbl_season(self$data, period))
     stats::model.matrix(~., data = out)[, -1, drop = FALSE]
   },
   fourier = function(period = NULL, K, origin = NULL) {
@@ -141,6 +141,6 @@ common_xregs <- list(
       }
       origin <- self$origin
     }
-    as.matrix(fabletools:::fbl_fourier(self$data, period, K, origin))
+    as.matrix(fabletoolsAzd:::fbl_fourier(self$data, period, K, origin))
   }
 )
