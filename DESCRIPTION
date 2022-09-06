@@ -1,36 +1,18 @@
 Package: fabletools_azd
-Title: Core Tools for Packages in the 'fable' Framework
-Version: 0.3.2.9000
+Title: Core Tools for Packages in the 'fable' Framework for robustness
+Version: Robust version of tidyverse/fabletools
 Authors@R:
-    c(person(given = "Mitchell",
-             family = "O'Hara-Wild",
-             role = c("aut", "cre"),
-             email = "mail@mitchelloharawild.com"),
-      person(given = "Rob",
-             family = "Hyndman",
-             role = "aut"),
-      person(given = "Earo",
-             family = "Wang",
-             role = "aut"),
-      person(given = "Di",
-             family = "Cook",
-             role = "ctb"),
-      person(given = "George",
-             family = "Athanasopoulos",
-             role = "ctb"),
-      person(given = "David",
-             family = "Holt",
-             role = "ctb"))
+    c(person(given = "Ali Zafer",
+             family = "Dalar",
+             role = c("cre"))
 Description: Provides tools, helpers and data structures for
     developing models and time series functions for 'fable' and extension
     packages. These tools support a consistent and tidy interface for time
-    series modelling and analysis.
-License: GPL-3
-URL: https://fabletools.tidyverts.org/,
-    https://github.com/tidyverts/fabletools
-BugReports: https://github.com/tidyverts/fabletools/issues
+    series modelling, analysis and robustness.
+URL: https://github.com/alizafer/fabletools_azd
+BugReports: https://github.com/alizafer/fabletools_azd/issues
 Depends:
-    R (>= 3.1.3)
+    R (>= 3.4.2)
 Imports:
     tsibble (>= 0.9.0),
     tibble (>= 1.4.1),
@@ -61,15 +43,7 @@ Suggests:
     tsibbledata (>= 0.2.0),
     lubridate,
     Matrix
-Remotes:
-    mitchelloharawild/distributional
-VignetteBuilder: 
-    knitr
-RdMacros: 
-    lifecycle
+
 ByteCompile: true
 Encoding: UTF-8
 Language: en-GB
-Roxygen: list(markdown = TRUE, roclets=c('rd', 'collate',
-    'namespace'))
-RoxygenNote: 7.2.1
