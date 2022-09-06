@@ -1,4 +1,4 @@
-Package: fabletools_azd
+Package: fabletools-azd
 Title: Core Tools for Packages in the 'fable' Framework for robustness
 Version: 0.1
 Authors@R: c(person("Ali", "Dalar", role = c("aut", "cre"),
@@ -10,6 +10,6 @@ Description: Provides tools, helpers and data structures for
     packages. These tools support a consistent and tidy interface for time
     series modelling, analysis and robustness.
     Robust version of tidyverse/fabletools
-URL: https://github.com/alizafer/fabletools_azd
-BugReports: https://github.com/alizafer/fabletools_azd
+URL: https://github.com/alizafer/fabletools-azd
+BugReports: https://github.com/alizafer/fabletools-azd
 License: GPL-3
